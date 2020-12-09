@@ -22,7 +22,7 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 65%;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 10px;
   height: 100px;
   border: 1px solid black;
@@ -76,7 +76,7 @@ a {
 .section-platform {
   width: 80%;
   height: 450px;
-  margin: 30px auto;
+  margin: 20px auto 55px auto;
   background-color: #F2F7FF;
   border-radius: 8px;
 }
@@ -114,3 +114,52 @@ a {
   margin-right: 50px;
   margin-top: 35px;
 }
+
+
+/* -------- */
+/* SECTION MARKETING RULES */
+.section-marketing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0px auto;
+  height: 425px;
+  border: 1px solid black;
+}
+
+.block {
+  display: flex;
+  width: calc((100% / 3) - 40px);
+  margin: 0px 20px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.pc-logo img {
+  width: 70px;
+}
+
+.caption {
+  margin-left: 20px;
+}
+
+.caption h1 {
+  margin-bottom: 10px;
+}
+
+.caption h3 {
+  margin-bottom: 30px;
+}
+
+.caption i {
+  margin-right: 10px;
+}
+
+.caption li {
+  margin-bottom: 15px;
+}
+
+
+/* -------- */
+/* SECTION ANALITYCS RULES */
