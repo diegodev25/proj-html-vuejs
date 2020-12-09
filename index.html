@@ -12,37 +12,29 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="menu">
+    <header id="app" class="menu">
       <!-- LOGO -->
       <div class="logo">
         <a href="#">
-          <img src="img/logo-2.png" alt="Logo">
+          <img :src="'img/' + logo" alt="Logo">
         </a>
       </div>
       <!-- LIST MENU -->
       <div class="list-item">
         <ul>
-          <a href="#">
-            <li>Home</li>
-          </a>
-          <a href="#">
-            <li>About us</li>
-          </a>
-          <a href="#">
-            <li>Feature</li>
-          </a>
-          <a href="#">
-            <li>Testimonials</li>
-          </a>
-          <a href="#">
-            <li>Contact US</li>
+          <a v-for="list in menu" href="#">
+            <li>{{ list }}</li>
           </a>
         </ul>
-        <i class="fas fa-search"></i>
-        <i class="fas fa-shopping-cart"></i>
+        <i :class="search"></i>
+        <i :class="cart"></i>
         <button type="button" name="button">Get Started</button>
       </div>
-    </nav>
+    </header>
+    <!-- SECTION PLATFORM -->
+    <section class="section-platform">
+
+    </section>
     <script src="js/script.js"></script>
   </body>
 </html>

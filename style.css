@@ -25,7 +25,7 @@ a {
   margin: 0 auto;
   padding: 10px;
   height: 100px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .menu img {
@@ -38,7 +38,7 @@ a {
   align-items: center;
   width: 48%;
   height: 100%;
-  /* border: 1px solid lightblue; */
+  border: 1px solid lightblue;
 }
 
 .list-item > ul > a {
@@ -68,4 +68,15 @@ a {
   height: 35px;
   background: #377DFF;
   cursor: pointer;
+}
+
+
+/* -------- */
+/* SECTION PLATFORM RULES */
+.section-platform {
+  width: 80%;
+  height: 450px;
+  margin: 30px auto;
+  background-color: #F2F7FF;
+  border-radius: 8px;
 }
