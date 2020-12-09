@@ -5,5 +5,67 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+
 /* -------- */
-/*  */
+/* NAVBAR RULES */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100px;
+  /* border: 1px solid black; */
+}
+
+.menu img {
+  width: 50px;
+}
+
+/* LIST MENU RULES */
+.list-item {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  height: 100%;
+  /* border: 1px solid lightblue; */
+}
+
+.list-item > ul > a {
+  margin-right: 12px;
+  color: #1E1E1E;
+}
+
+.list-item > ul > a > li {
+  display: inline-block;
+}
+
+.list-item > i {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.list-item > i:nth-last-child(3) {
+  margin-left: 40px;
+}
+
+.list-item > button {
+  margin-left: 20px;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  width: 90px;
+  height: 35px;
+  background: #377DFF;
+  cursor: pointer;
+}
