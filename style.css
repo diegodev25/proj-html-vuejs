@@ -21,7 +21,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  width: 60%;
   margin: 0px auto;
   padding: 10px;
   height: 100px;
@@ -36,7 +36,7 @@ a {
 .list-item {
   display: flex;
   align-items: center;
-  width: 48%;
+  width: 50%;
   height: 100%;
   border: 1px solid lightblue;
 }
@@ -153,6 +153,7 @@ a {
 }
 
 .caption i {
+  color: #377DFF;
   margin-right: 10px;
 }
 
@@ -163,3 +164,54 @@ a {
 
 /* -------- */
 /* SECTION ANALITYCS RULES */
+.section-analytics {
+  display: flex;
+  width: 60%;
+  margin: 70px auto 40px auto;
+  height: 525px;
+  border: 1px solid black;
+}
+
+.caption-analysis {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.caption-analysis h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.caption-analysis h3 {
+  margin-bottom: 35px;
+}
+
+.report-analysis {
+  display: flex;
+  width: 100%;
+  height: 170px;
+  border: 1px solid black;
+}
+
+.img-report {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.img-report img {
+  width: 70px;
+}
+
+.caption-right {
+  padding: 20px 0px;
+  border: 1px solid black;
+}
+
+.caption-right h2 {
+  margin-bottom: 15px;
+}
+
+/* -------- */
+/* SECTION POPULAR RULES */
