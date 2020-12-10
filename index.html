@@ -28,7 +28,7 @@
         </ul>
         <i :class="search"></i>
         <i :class="cart"></i>
-        <button type="button" name="button">Get Started</button>
+        <button type="button" name="button">{{ button }}</button>
       </div>
     </header>
     <!-- SECTION PLATFORM -->
@@ -277,71 +277,35 @@
     <footer id="root" class="footer">
       <div class="container-footer">
         <div class="copyright-footer">
-          <img src="img/35.png" alt="Logo">
-          <p>It is a long established fact that a<br>reader will be destracted by the<br>readable.</p>
-          <span>Copyright &copy; 2018</span>
-          <a href="#">Sofbox</a>
+          <img :src="logo" alt="Logo">
+          <p>{{ paragraph }}</p>
+          <span>{{ copy }} &copy; {{ year }}</span>
+          <a href="#">{{ link }}</a>
         </div>
         <!-- 1° item -->
         <div class="item-footer">
-          <h3>Menu</h3>
+          <h3>{{ menu }}</h3>
           <ul>
-            <a href="#">
-              <li>About Us</li>
-            </a>
-            <a href="#">
-              <li>Theme</li>
-            </a>
-            <a href="#">
-              <li>Features</li>
-            </a>
-            <a href="#">
-              <li>Pricing</li>
-            </a>
-            <a href="#">
-              <li>Blog</li>
+            <a v-for="list in itemMenu" href="#">
+              <li>{{ list }}</li>
             </a>
           </ul>
         </div>
         <!-- 2° item -->
         <div class="item-footer">
-          <h3>About Us</h3>
+          <h3>{{ aboutUS }}</h3>
           <ul>
-            <a href="#">
-              <li>About Sofbox</li>
-            </a>
-            <a href="#">
-              <li>Road map</li>
-            </a>
-            <a href="#">
-              <li>How it Work</li>
-            </a>
-            <a href="#">
-              <li>Team</li>
-            </a>
-            <a href="#">
-              <li>News</li>
+            <a v-for="list in itemAbout" href="#">
+              <li>{{ list }}</li>
             </a>
           </ul>
         </div>
         <!-- 3° item -->
         <div class="item-footer">
-          <h3>Quick Links</h3>
+          <h3>{{ quick }}</h3>
           <ul>
-            <a href="#">
-              <li>About Us</li>
-            </a>
-            <a href="#">
-              <li>Theme</li>
-            </a>
-            <a href="#">
-              <li>Features</li>
-            </a>
-            <a href="#">
-              <li>Pricing</li>
-            </a>
-            <a href="#">
-              <li>Blog</li>
+            <a v-for="list in itemQuick" href="#">
+              <li>{{ list }}</li>
             </a>
           </ul>
         </div>
