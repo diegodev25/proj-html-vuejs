@@ -384,15 +384,20 @@ a {
   float: left;
   margin-left: 45px;
   padding: 10px;
-  width: calc((100% / 3) - 30px);
+  width: calc((100% / 3) - 42px);
   height: 400px;
   border-radius: 6px;
   border: 1px solid black;
 }
 
 .item-posts:nth-child(3) {
-  margin-left: 0px;
+  margin-left: 18px;
 }
+
+.item-posts:nth-child(11) {
+  margin-right: 18px;
+}
+
 
 .item-posts > img {
   width: 100%;
@@ -408,3 +413,127 @@ a {
 .item-posts > p {
   margin-left: 10px;
 }
+
+
+/* -------- */
+/* SECTION CONTACT RULES */
+.section-contact {
+  width: 60%;
+  margin: auto;
+  height: 830px;
+  border: 1px solid black;
+}
+
+.section-contact > h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-contact > h4 {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.map-contacts {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.map-contacts > img {
+  width: 100%;
+  height: 400px;
+}
+
+.info-contacts {
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.info-contacts {
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.info-contacts > img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.info-contacts > h2 {
+  margin-bottom: 20px;
+}
+
+.info-contacts > h4 {
+  margin-bottom: 5px;
+}
+
+.info-contacts > h4:nth-child(4) {
+  margin-bottom: 40px;
+}
+
+.info-contacts > i {
+  font-size: 26px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #377DFF;
+  border: 1px solid #00000014;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-contacts > i:nth-child(5) {
+  padding: 10px 14px 10px 14px;
+  color: #377DFF;
+}
+
+.info-contacts > h1 {
+  margin-bottom: 25px;
+}
+
+.form-data > input {
+  width: 48%;
+  height: 38px;
+  text-indent: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  margin-right: 20px;
+
+}
+
+.form-data > input:nth-child(2) {
+  margin-right: 0;
+}
+
+.form-data > input:nth-child(3) {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-data > textarea {
+  width: 100%;
+  text-indent: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.form-data > button {
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  width: 130px;
+  height: 35px;
+  background: #377DFF;
+  cursor: pointer;
+}
+
+/* -------- */
+/* FOOTER */
