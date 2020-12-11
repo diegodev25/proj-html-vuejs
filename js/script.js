@@ -14,18 +14,89 @@ var app = new Vue ({
 var root = new Vue ({
   el: '#root',
   data: {
-    logo: "img/35.png",
-    paragraph1: "It is a long established fact that a",
-    paragraph2: "reader will be distracted by the",
-    paragraph3: "readable content.",
-    copy: "Copyright",
+    logo: 'img/35.png',
+    paragraph1: 'It is a long established fact that a',
+    paragraph2: 'reader will be distracted by the',
+    paragraph3: 'readable content.',
+    copy: 'Copyright',
     year: '2018',
     link: "Sofbox",
-    menu: "Menu",
-    aboutUS: "About Us",
-    quick: 'Quick Links',
-    itemMenu: ['About Us', 'Theme', 'Features', 'Pricing', 'Blog'],
-    itemAbout: ['About Sofbox', 'Road map', 'How it Work', 'Team', 'News'],
-    itemQuick: ['About Us', 'Theme', 'Features', 'Pricing', 'Blog']
+    items: [
+      {
+        name: 'Menu',
+        tags: [
+          {
+            urlname: 'About Us',
+            url: '#'
+          },
+          {
+            urlname: 'Theme',
+            url: '#'
+          },
+          {
+            urlname: 'Features',
+            url: '#'
+          },
+          {
+            urlname: 'Pricing',
+            url: '#'
+          },
+          {
+            urlname: 'Blog',
+            url: '#'
+          },
+        ]
+      },
+      {
+        name: 'About Us',
+        tags: [
+          {
+            urlname: 'About Sofbox',
+            url: '#'
+          },
+          {
+            urlname: 'Road map',
+            url: '#'
+          },
+          {
+            urlname: 'How it Work',
+            url: '#'
+          },
+          {
+            urlname: 'Team',
+            url: '#'
+          },
+          {
+            urlname: 'News',
+            url: '#'
+          },
+        ]
+      },
+      {
+        name: 'Quick Links',
+        tags: [
+          {
+            urlname: 'About Us',
+            url: '#'
+          },
+          {
+            urlname: 'Theme',
+            url: '#'
+          },
+          {
+            urlname: 'Features',
+            url: '#'
+          },
+          {
+            urlname: 'Pricing',
+            url: '#'
+          },
+          {
+            urlname: 'Blog',
+            url: '#'
+          },
+        ]
+      }
+    ]
   }
-});
+})

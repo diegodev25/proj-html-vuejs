@@ -291,29 +291,11 @@
           <a href="#">{{ link }}</a>
         </div>
         <!-- 1° item -->
-        <div class="item-footer">
-          <h3>{{ menu }}</h3>
+        <div v-for="(item, i) in items" :key="i" class="item-footer">
+          <h3>{{ item.name }}</h3>
           <ul>
-            <a v-for="list in itemMenu" href="#">
-              <li>{{ list }}</li>
-            </a>
-          </ul>
-        </div>
-        <!-- 2° item -->
-        <div class="item-footer">
-          <h3>{{ aboutUS }}</h3>
-          <ul>
-            <a v-for="list in itemAbout" href="#">
-              <li>{{ list }}</li>
-            </a>
-          </ul>
-        </div>
-        <!-- 3° item -->
-        <div class="item-footer">
-          <h3>{{ quick }}</h3>
-          <ul>
-            <a v-for="list in itemQuick" href="#">
-              <li>{{ list }}</li>
+            <a v-for="tag in item.tags" :href="tag.url">
+              <li>{{ tag.urlname }}</li>
             </a>
           </ul>
         </div>
