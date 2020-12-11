@@ -114,20 +114,20 @@ a {
   padding: 50px;
 }
 
-.sez-left h1 {
+.sez-left > h1 {
   color: #1E1E1E;
   font-size: 50px;
   font-weight: 300;
   margin-bottom: 20px;
 }
 
-.sez-left p {
+.sez-left > p {
   color: #8E989F;
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.sez-left button {
+.sez-left > button {
   width: 120px;
   height: 45px;
   font-size: 15px;
@@ -139,7 +139,7 @@ a {
   cursor: pointer;
 }
 
-.section-platform img {
+.section-platform > img {
   float: right;
   margin-right: 50px;
   margin-top: 35px;
@@ -292,7 +292,6 @@ a {
   font-weight: 400;
 }
 
-
 .pop-button {
   display: flex;
   justify-content: center;
@@ -301,7 +300,7 @@ a {
   height: 150px;
 }
 
-.pop-button button {
+.pop-button > button {
   font-size: 16px;
   border: none;
   border-radius: 4px;
@@ -335,42 +334,42 @@ a {
   font-weight: 300;
 }
 
-.container-business > .item-business:nth-child(1) > i {
+.item-business:nth-child(1) > i {
   font-size: 42px;
   color: #377DFF;
 }
 
-.container-business > .item-business:nth-child(2) > i {
+.item-business:nth-child(2) > i {
   font-size: 42px;
   color: #FF796D;
 }
 
-.container-business > .item-business:nth-child(3) > i {
+.item-business:nth-child(3) > i {
   font-size: 42px;
-  color: #6BDAC1;
+  color: #6CDAC1;
 }
 
-.container-business > .item-business:nth-child(4) > i {
+.item-business:nth-child(4) > i {
   font-size: 42px;
   color: #377DFF;
 }
 
-.container-business > .item-business:nth-child(5) > i {
+.item-business:nth-child(5) > i {
   font-size: 42px;
   color: #FF796D;
 }
 
-.container-business > .item-business:nth-child(6) > i {
+.item-business:nth-child(6) > i {
   font-size: 42px;
-  color: #6BDAC1;
+  color: #6CDAC1;
 }
 
-.container-business > .item-business:nth-child(7) > i {
+.item-business:nth-child(7) > i {
   font-size: 42px;
   color: #377DFF;
 }
 
-.container-business > .item-business:nth-child(8) > i {
+.item-business:nth-child(8) > i {
   font-size: 42px;
   color: #FF796D;
 }
@@ -722,4 +721,35 @@ a {
 .item-footer > ul > a > li {
   color: #8E989F;
   margin-bottom: 5px;
+}
+
+
+/* -------- */
+/* HOVER */
+.icon > button:hover {
+  background-color: #242424;
+}
+
+.sez-left > button:hover {
+  background-color: #242424;
+}
+
+.pop-button > button:hover {
+  background-color: #242424;
+}
+
+.form-data > button:hover {
+  background-color: #242424;
+}
+
+.item-business:hover {
+  background-color: #6CDAC1;
+}
+
+.item-business:hover > h3 {
+  color: #FFFFFF;
+}
+
+.item-business:hover > i {
+  color: #FFFFFF;
 }
