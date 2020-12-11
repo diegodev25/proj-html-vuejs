@@ -15,7 +15,9 @@ var root = new Vue ({
   el: '#root',
   data: {
     logo: "img/35.png",
-    paragraph: "It is a long established fact that a reader will be destracted by the readable.",
+    paragraph1: "It is a long established fact that a",
+    paragraph2: "reader will be distracted by the",
+    paragraph3: "readable content.",
     copy: "Copyright",
     year: '2018',
     link: "Sofbox",
